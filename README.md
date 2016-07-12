@@ -1,35 +1,17 @@
 
 # clojure-getting-started
 
-A barebones Clojure app, which can easily be deployed to Heroku.  
+A barebones Clojure app, which can easily be deployed to Dokkur.  
 
-This application support the [Getting Started with Clojure](https://devcenter.heroku.com/articles/getting-started-with-clojure) article - check it out.
+This application support the [Getting Started with Clojure on Dokkur](https://dokkur.com/#!/documentation/getting_started/clojure) article - check it out.
 
-## Running Locally
+## Deploying to Dokkur
 
-Make sure you have Clojure installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
-
-```sh
-$ git clone https://github.com/heroku/clojure-getting-started.git
-$ cd clojure-getting-started
-$ lein repl
-user=> (require 'clojure-getting-started.web)
-user=>(def server (clojure-getting-started.web/-main))
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
+[Deploy to Dokkur](https://dokkur.com)
 
 ## Documentation
 
-For more information about using Clojure on Heroku, see these Dev Center articles:
+For more information about using Clojure on Dokkur, see these Documentation articles:
 
-- [Clojure on Heroku](https://devcenter.heroku.com/categories/clojure)
+- [Getting Started with Clojure on Dokkur](https://dokkur.com/#!/documentation/getting_started/clojure)
 
